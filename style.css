@@ -69,7 +69,7 @@ main {
     justify-content: center;
     align-items: center;
     padding-inline: 6%;
-    max-height: 400px;
+    max-height: 230px;
 }
 
 /* each die's face */
