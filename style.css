@@ -493,7 +493,7 @@ main {
 /* For tablets and similar-sized devices */
 @media screen and (min-width:600px)  {
     body {
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
     main {
         margin: auto;
@@ -533,12 +533,12 @@ main {
     }
     .start-game.form-btn{
         font-size: 1.6rem;
-        min-width: 9.9rem;color: ye;
+        min-width: 9.9rem;
     }
     .title{
         font-size: 3rem;
         text-align: center;
-        margin-bottom: 1.2rem;
+        margin-bottom: 0.5rem;
     }
     .form-content{
         margin: 1rem 5rem;
@@ -573,17 +573,21 @@ main {
     max-height: 14rem;
     }
 
-    .final-scores{
+    /* .final-scores{
         padding: 0 25%; 
-    }
+        margin-top: 4px;
+    } */
     .p1Score, .p2Score, .scores, .attempts{
-        font-size: 2.0rem;
+        font-size: 1.50rem;
     }
     .final-scores{
         font-size: 2rem;
         background-color: #5035FF;
         color: #FFFFFF;
         padding-inline: 15%;
+    }
+    .socials{
+        margin-top: 4px;
     }
 }
 /* For devices larger than smaller tablets */
