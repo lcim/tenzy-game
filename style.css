@@ -250,6 +250,9 @@ main {
     background-color: #5035FF;
     color: #FFFFFF;
     padding-inline: 7%;
+    margin-top: 0.5rem;
+    border-radius: 0.8rem;
+    font-family: 'roboto', cursive;
 }
 
 /* control button at top */
@@ -490,10 +493,11 @@ main {
 /* For tablets and similar-sized devices */
 @media screen and (min-width:600px)  {
     body {
-        
+        padding-bottom: 5%;
     }
     main {
         margin: auto;
+        height: auto;
     }
     .instructions {
         font-size: 1.6rem;
@@ -571,7 +575,6 @@ main {
 
     .final-scores{
         padding: 0 25%; 
-        font-family: 'roboto', cursive;
     }
     .p1Score, .p2Score, .scores, .attempts{
         font-size: 2.0rem;

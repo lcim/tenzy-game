@@ -261,22 +261,8 @@ export default function App() {
        $(".player").hide()
        $(".register").hide()
     }
-    
-    // end of match
-    if (tenzies.tenzyCount === 11) {
-        soundsPlayer(matchApplause)
-        const finalResult = setsWon.player1 === setsWon.player2 ? "Honours Even ⚖️" : setsWon.player1 > setsWon.player2 ?
-            `GameOver! ${players[0].name} wins ${setsWon.player1}:${setsWon.player2} sets 
-            💰🏅🏆`:
-            `GameOver! ${players[1].name} wins ${setsWon.player2}:${setsWon.player1} sets 
-            💰🏅🏆`
-        var resultDisplay = $("<h1></h1>").addClass("final-scores").text(finalResult);
-        $(".setResult").after(resultDisplay)
-        $(".dice-container").hide()
-        $(".form-btn").hide()
-        $(".form-content").hide()
-        $(".socials").show()
-    }
+
+    const myFooter = $(".socials").hide()
     
     // pass players scores to the ScoreBoard component
     const playersScores = players.map((player) => (
@@ -317,7 +303,23 @@ export default function App() {
     if (window.screen.width < 480  ) {
         $(".copyrights").hide()
     }
-    const myFooter = $(".socials").hide()
+
+    // end of match
+    if (tenzies.tenzyCount === 11) {
+        soundsPlayer(matchApplause)
+        const finalResult = setsWon.player1 === setsWon.player2 ? "Honours Even ⚖️" : setsWon.player1 > setsWon.player2 ?
+            `GameOver! ${players[0].name} wins ${setsWon.player1}:${setsWon.player2} sets 
+            💰🏅🏆`:
+            `GameOver! ${players[1].name} wins ${setsWon.player2}:${setsWon.player1} sets 
+            💰🏅🏆`
+        var resultDisplay = $("<h1></h1>").addClass("final-scores").text(finalResult);
+        $(".setResult").after(resultDisplay)
+        $(".dice-container").hide()
+        $(".form-btn").hide()
+        $(".form-content").hide()
+        $(".socials").show()
+    }
+    
     return (
         <main>
             {(tenzies.tenzyCount > 1 && tenzies.tenzyCount % 2 !== 0 && tenzies.tenzy) && <Confetti />}
