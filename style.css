@@ -68,14 +68,13 @@ main {
     margin: 4px 0;
     justify-content: center;
     align-items: center;
-    padding-inline: 6%;
-    max-height: 230px;
+    padding-inline: 3%;
 }
 
 /* each die's face */
 .die-face {
-    max-width: 69px;
-    max-height: 69px;
+    max-width: 63px;
+    max-height: 63px;
     margin: 0 auto;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);width: 99px;
     border-radius: 10px;
