@@ -92,6 +92,7 @@ main {
     max-height: auto;
     background-color: #EEFFFD;
     margin: 0;
+    border-radius: 10px;
     /* #F6FFDE #FEECFF #EEFFFD #FFF9EF rgb(255, 249, 239, 0.5) */
 }
 
