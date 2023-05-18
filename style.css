@@ -373,10 +373,10 @@ main {
         padding-inline: 3%;
     }
     .die-face{
-        max-width: 75px; 
-        max-height: 75px;
-        width: 75px;
-        height:75px;
+        max-width: 69px; 
+        max-height: 69px;
+        width: 69px;
+        height:69px;
     }
     .raw-die{
         width: 100%; 
@@ -403,10 +403,10 @@ main {
         padding-inline: 5%;
     }
     .die-face{
-        width: 84px;
-        height: 84px;
-        max-width: 84px;
-        max-height: 84px;
+        width: 78px;
+        height: 78px;
+        max-width: 78px;
+        max-height: 78px;
     }
     .raw-die{
         width: 100%;
