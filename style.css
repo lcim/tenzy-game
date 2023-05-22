@@ -343,6 +343,7 @@ main {
         padding-inline: 3%;
         padding-block-start: 3%;
         font-size: 1rem;
+        height: 90vh;
     }
     .dice-container {
         max-height: 130px;
@@ -388,11 +389,15 @@ main {
         max-height: 600px;
     }
     .instructions-container{
-        height: 591px;
+        height: 95vh;
     }
     .instructions{
-        height: auto;
+        height: 90vh;
         top: 5%
+    }
+    .dice-container{
+        display: grid;
+        grid-template: auto auto / repeat(5, 1fr);
     }
     .die-face {
         max-width: 63px;
