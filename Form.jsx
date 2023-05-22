@@ -32,7 +32,7 @@ export default function Form(props) {
             
             <button className="reset form-btn" onClick={props.reset} 
             type="button">
-            reset?
+            quit
             </button> 
             
             <button className="start-game form-btn" onClick={props.btns}>Instructions?

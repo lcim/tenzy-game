@@ -250,7 +250,7 @@ export default function App() {
         setPlayers([obj1, obj2])
         // ensure player name is no empty before game starts
         if(!$(".player").val() || !$(".player2").val()){
-            alert("Click on 'Reset', enter names for players 1 & 2, and click 'Enter' to start game")
+            alert("Click on 'quit', enter names for players 1 & 2, and click 'Enter' to start game")
         } else {
             setGetPlayers(players => ({
                 ...players, player1: "", player2: ""
@@ -295,7 +295,7 @@ export default function App() {
                 players={players}
         />)
     
-    const how2Play = `Tenzy game is played by two players and consists of 10 dice. Enter any two names and click "Enter" to start. Player1 starts first - choose a particular dice face and click them to freeze them; then roll the dice until all dice faces are the same. Eg All face becomes a six. Player2 takes turn. 
+    const how2Play = `Tenzy game is played by two players and consists of 10 dice. Enter any two names and click "Enter" to start. Player1 starts first - choose a particular dice face and click them to highlight them; then roll the dice until that dice face are all highlighted. Eg All face becomes a six. Player2 takes turn. 
     After five sets each, the scoreBoard displays your scores and the player who won most sets is declared the winner. 
     - © Chiadi 2023 
     

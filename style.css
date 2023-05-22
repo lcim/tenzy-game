@@ -338,7 +338,7 @@ main {
 }
 
 /* For small-sized devices in landscape orientation*/
-@media only screen and (max-height: 350px) and (max-width: 600px) and (orientation: landscape) {
+@media only screen and (max-height: 350px) and (min-width: 500px) and (orientation: landscape) {
     .instructions{
         padding-inline: 3%;
         padding-block-start: 3%;
@@ -384,7 +384,7 @@ main {
 }
 
 /* For very small devices in portrait mode*/
-@media screen and (min-height: 350px) and (max-width: 630px) and (orientation: landscape) {
+@media screen and (max-height: 480px) and (min-width: 600px) and (orientation: landscape) {
     main {
         max-height: 600px;
     }
@@ -394,6 +394,9 @@ main {
     .instructions{
         height: 90vh;
         top: 5%
+    }
+    .title{
+        margin-block: 0.5rem;
     }
     .dice-container{
         display: grid;
@@ -416,7 +419,7 @@ main {
 }
 
 /* For small-sized devices in portrait orientation*/
-@media screen and (min-width: 300px) and (min-height: 480px) and (orientation: portrait) {
+@media screen and (min-width: 300px) and (min-height: 481px) and (orientation: portrait) {
     .instructions-container{
         margin-top: 3%;
     }
@@ -433,10 +436,10 @@ main {
         padding-inline: 3%;
     }
     .die-face{
-        max-width: 69px; 
-        max-height: 69px;
-        width: 69px;
-        height:69px;
+        max-width: 63px; 
+        max-height: 63px;
+        width: 63px;
+        height:63px;
     }
     .raw-die{
         width: 100%; 
@@ -454,7 +457,7 @@ main {
     }
 }
 
-@media screen and (min-width: 400px) and (min-height: 760px) and (orientation: portrait){
+@media screen and (min-width: 300px) and (min-height: 700px) and (orientation: portrait){
     .instructions{
         top: 5%;
         padding: 5%;
@@ -463,10 +466,10 @@ main {
         padding-inline: 5%;
     }
     .die-face{
-        width: 72px;
-        height: 72px;
-        max-width: 72px;
-        max-height: 72px;
+        width: 63px;
+        height: 63px;
+        max-width: 63px;
+        max-height: 63px;
     }
     .raw-die{
         width: 100%;
@@ -511,8 +514,8 @@ main {
     .die-face {
         height: 87px;
         width: 87px;
-        max-height: unset;
-        max-width: unset;
+        max-height: 87px;
+        max-width: 87px;
         padding: 0;
     }
     .die-face img {
@@ -546,7 +549,9 @@ main {
         margin-bottom: 0.5rem;
     }
     .player{
-        height: 2rem;
+        height: 1.5rem;
+                font-size: 1.1rem;
+
     }
     .ctrl-buttons{
         margin-block-end: 0.6rem; 
@@ -643,7 +648,7 @@ main {
     }
     .die-img{
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     .new-record{
         font-size: 1.5rem;
