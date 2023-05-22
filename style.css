@@ -394,6 +394,14 @@ main {
         height: auto;
         top: 5%
     }
+    .die-face {
+        max-width: 63px;
+        max-height: 63px;
+    }
+    .die-img{
+        width: 100%;
+        height: auto;
+    }
     .final-scores{
         font-size: 1.4rem;
         background-color: #5035FF;
