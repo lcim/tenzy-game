@@ -352,6 +352,14 @@ main {
         gap: 0.7rem;
         padding-inline: 5%;
     }
+    .die-face {
+        max-width: 59px;
+        max-height: 59px;
+    }
+    .die-img{
+        width: 100%;
+        height: auto;
+    }
     .title{
         margin-block: 0.2rem;
         font-size: 1.4rem;
