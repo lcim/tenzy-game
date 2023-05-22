@@ -338,14 +338,14 @@ main {
 }
 
 /* For small-sized devices in landscape orientation*/
-@media screen and (max-height: 350px) and (orientation: landscape) {
+@media only screen and (max-height: 350px) and (max-width: 600px) and (orientation: landscape) {
     .instructions{
         padding-inline: 3%;
         padding-block-start: 3%;
         font-size: 1rem;
     }
     .dice-container {
-        max-height: 160px;
+        max-height: 130px;
         display: grid;
         grid-template: auto auto / repeat(5, 1fr);
         margin: 0.3rem 1rem;
@@ -375,19 +375,19 @@ main {
 }
 
 /* For very small devices in portrait mode*/
-@media screen and (max-height: 360px) and (orientation: landscape) {
+@media screen and (max-height: 450px) and (max-width: 630px) and (orientation: landscape) {
     main {
-        max-height: 360px;
+        max-height: 600px;
     }
     .instructions-container{
-        height: 360px;
+        height: 591px;
     }
     .instructions{
-        height: 360px;
-        top: 10%
+        height: auto;
+        top: 5%
     }
     .final-scores{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         background-color: #5035FF;
         color: #FFFFFF;
         padding-inline: 7%;
