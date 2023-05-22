@@ -383,7 +383,7 @@ main {
 }
 
 /* For very small devices in portrait mode*/
-@media screen and (max-height: 450px) and (max-width: 630px) and (orientation: landscape) {
+@media screen and (min-height: 350px) and (max-width: 630px) and (orientation: landscape) {
     main {
         max-height: 600px;
     }
@@ -474,42 +474,9 @@ main {
         padding-inline: 10%;
     }
 }
-/*
-@media screen and (min-width: 400px) and (orientation: portrait){
-    .instructions{
-        top: 18%;
-    }
-}
-@media screen and (min-width: 420px) and (orientation: portrait){
-    .instructions{
-        top: 21%;
-    }
-}
-@media screen and (min-width: 440px) and (orientation: portrait){
-    .instructions{
-        top: 24%;
-    }
-}
-@media screen and (min-width: 460px) and (orientation: portrait){
-    .instructions{
-        top: 27%;
-    }
-} */
-
-/* @media screen and (min-width: 480px) {
-    .dice-container {
-        max-height: 201px;
-        display: grid;
-        grid-template: auto auto / repeat(5, 1fr);
-        margin: 0.5rem;
-        gap: 1.0rem;
-        padding-inline: 15%;
-    }
-} */
-
 
 /* For tablets and similar-sized devices */
-@media screen and (min-width:600px)  {
+@media screen and (min-width:600px) and (min-height:530px)  {
     body {
         padding-bottom: 7%;
     }
