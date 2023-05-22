@@ -187,7 +187,7 @@ main {
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9);
     border: 2px solid #41644A;
     border-radius: 8px;
-    margin: 6px 1px;
+    margin: 3px 1px;
 }
 /* A container for individual scores only */
 .scoresContainer {
@@ -199,7 +199,7 @@ main {
     /* display: flex; */
     flex-wrap: wrap;
     min-width: 110px;
-    min-height: 45px;
+    min-height: 42px;
     border-radius: 8px; 
 }
 .scores {
@@ -343,7 +343,7 @@ main {
         padding-inline: 3%;
         padding-block-start: 3%;
         font-size: 1rem;
-        height: 90vh;
+        height: 95vh;
     }
     .dice-container {
         max-height: 130px;
@@ -381,6 +381,11 @@ main {
         color: #FFFFFF;
         padding-inline: 10%;
     }
+    .p2Score, .p1Score, .attempts {
+    min-height: 18px;
+    font-size: 1.1rem;
+    margin-inline-start: 6px;
+    }
 }
 
 /* For very small devices in portrait mode*/
@@ -392,7 +397,7 @@ main {
         height: 95vh;
     }
     .instructions{
-        height: 90vh;
+        height: 95vh;
         top: 5%
     }
     .title{
@@ -416,6 +421,11 @@ main {
         color: #FFFFFF;
         padding-inline: 7%;
     }
+    .p2Score, .p1Score, .attempts {
+    min-height: 18px;
+    font-size: 1.1rem;
+    margin-inline-start: 6px;
+    }
 }
 
 /* For small-sized devices in portrait orientation*/
@@ -428,8 +438,8 @@ main {
         color: whitesmoke;
         background-color: rgba(11, 36, 52, 0.65);
         font-family: Arial, Helvetica, sans-serif;
-        padding-inline: 12%;
-        padding-block-start: 24%;
+        padding-inline: 3%;
+        padding-block-start: 5%;
     }
     .dice-container{
         gap: 12px;
