@@ -416,7 +416,7 @@ main {
 }
 
 /* For small-sized devices in portrait orientation*/
-@media screen and (min-width: 360px) and (min-height: 760px) {
+@media screen and (min-width: 300px) and (min-height: 480px) {
     .instructions-container{
         margin-top: 3%;
     }
