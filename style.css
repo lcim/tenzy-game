@@ -465,6 +465,10 @@ main {
         color: #FFFFFF;
         padding-inline: 10%;
     }
+    .setResult {
+        font-size: 1.2rem;
+        padding-inline: 0.5rem;
+    }
 }
 
 @media screen and (min-width: 300px) and (min-height: 700px) and (orientation: portrait){
