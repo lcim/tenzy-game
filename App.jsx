@@ -200,7 +200,6 @@ export default function App() {
     // const face6 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rZ2Hd5nMkh1rpAinIUJcDLpfX9qnS6VOq98Lkj0mHM0UNRg83i06rjNjVCmPbk9D-xg9vT9em4NWWZrQ1OJI19qAjq=s63" />
     
         // dice face images
-<<<<<<< HEAD
     const face1 = <img className="raw-die" width="54" height="54"  src="images/seed1.png" alt="seedimage" />
     const face2 = <img className="raw-die" width="54" height="54"  src="images/seed2.png" alt="seedimage" />
     const face3 = <img className="raw-die" width="54" height="54"  src="images/seed3.png" alt="seedimage" />
@@ -208,7 +207,6 @@ export default function App() {
     const face5 = <img className="raw-die" width="54" height="54"  src="images/seed5.png" alt="seedimage" />
     const face6 = <img className="raw-die" width="54" height="54" src="images/seed6.png" alt="seedimage" />
     
-=======
     // const face1 = <img className="raw-die" width="54" height="54"  src="images/dice-1.png" alt="dice-image" />
     // const face2 = <img className="raw-die" width="54" height="54"  src="images/dice-2.png" alt="dice-image" />
     // const face3 = <img className="raw-die" width="54" height="54"  src="images/dice-3.png" alt="dice-image" />
@@ -216,7 +214,6 @@ export default function App() {
     // const face5 = <img className="raw-die" width="54" height="54"  src="images/dice-5.png" alt="dice-image" />
     // const face6 = <img className="raw-die" width="54" height="54" src="images/dice-6.png" alt="dice-image" />
         
->>>>>>> eab4fa9bddb7a0fdb004200379a2698f97eb190c
             // dice face images
     // const face1 = <img height="48" width="48" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rESe_Nfnvd8GFWQG9EXXMWWxsKK1ORZCk_pVpSKY8ogVYzyUe6wJmQBaK3GJAgYHx15PYOCSePjTuof0egvBHtIcZCmw=s2560" alt="1" />
     // const face2 = <img height="48" width="48"  src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pr0Qo3o3A0pUuHdrX58ceo1kNbYPJy834PcwQzQTulJOLrXzNGv0y6fBm7mWAkMLLtlDgMalKDBGfGo0VUMBh1QV3EXA=s2560" alt="2" />
