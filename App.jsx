@@ -200,12 +200,12 @@ export default function App() {
     // const face6 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rZ2Hd5nMkh1rpAinIUJcDLpfX9qnS6VOq98Lkj0mHM0UNRg83i06rjNjVCmPbk9D-xg9vT9em4NWWZrQ1OJI19qAjq=s63" />
     
         // dice face images
-    const face1 = <img className="raw-die" width="54" height="54"  src="./images/seed1.png" alt="seedimage" />
-    const face2 = <img className="raw-die" width="54" height="54"  src="./images/seed2.png" alt="seedimage" />
-    const face3 = <img className="raw-die" width="54" height="54"  src="./images/seed3.png" alt="seedimage" />
-    const face4 = <img className="raw-die" width="54" height="54"  src="./images/seed4.png" alt="seedimage" />
-    const face5 = <img className="raw-die" width="54" height="54"  src="./images/seed5.png" alt="seedimage" />
-    const face6 = <img className="raw-die" width="54" height="54" src="./images/seed6.png" alt="seedimage" />
+    const face1 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed1.png" alt="seedimage" />
+    const face2 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed2.png" alt="seedimage" />
+    const face3 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed3.png" alt="seedimage" />
+    const face4 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed4.png" alt="seedimage" />
+    const face5 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed5.png" alt="seedimage" />
+    const face6 = <img className="raw-die" width="54" height="54" src="./dist/assets/seed6.png" alt="seedimage" />
     
     // const face1 = <img className="raw-die" width="54" height="54"  src="images/dice-1.png" alt="dice-image" />
     // const face2 = <img className="raw-die" width="54" height="54"  src="images/dice-2.png" alt="dice-image" />
