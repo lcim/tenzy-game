@@ -191,21 +191,13 @@ export default function App() {
        soundElement.play() 
     } 
 
-    // dice face images
-    // const face1 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qWTR41Kpx3T2jMuMU6_DR83uj57X5-JYSe4y4ESK38T_cpiDqEX_w-oMLAw__CPhgiMQVcdHvlWc0IqJKNQibcS652Ag=s63" />
-    // const face2 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81owEzeEDsilsxVbHQzPKhbBekji0ZSWLDgPm5pXpDSutVk7GCW6BXj7nxNXvDLra_8smINOH6gmBC0MvEF2bYIH_3oDgw=s63" />
-    // const face3 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r0R5DZcOOmMYOghi5Ox3RXZcN5_bmiefjnchmaIE1dwfNnWhAAVFSvVIblzKE8gNq9hItWMlOV6Mo-qbNjnDGRcWD77g=s63" />
-    // const face4 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pXKyp_phE_gXPfUa9j4d-PXvoYwmzxL0XYSEWTLHd7UT3wBfKIcOWeh9h1ZViKLVuVUEeDQDnpnu4fEUSESwLAmmvg_g=s63" />
-    // const face5 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rorjE8CYyBsU8fY4aqdHKlxtT1Klvekam-B6x7tYMK0st3NOfNlbVEexSLQ00EMmkWMBzdQ8vfnEa8yiG2Bu69jOPw2A=s63" />
-    // const face6 = <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rZ2Hd5nMkh1rpAinIUJcDLpfX9qnS6VOq98Lkj0mHM0UNRg83i06rjNjVCmPbk9D-xg9vT9em4NWWZrQ1OJI19qAjq=s63" />
-    
         // dice face images
-    const face1 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed1.png" alt="seedimage" />
-    const face2 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed2.png" alt="seedimage" />
-    const face3 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed3.png" alt="seedimage" />
-    const face4 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed4.png" alt="seedimage" />
-    const face5 = <img className="raw-die" width="54" height="54"  src="./dist/assets/seed5.png" alt="seedimage" />
-    const face6 = <img className="raw-die" width="54" height="54" src="./dist/assets/seed6.png" alt="seedimage" />
+    const face1 = <img className="raw-die" width="54" height="54"  src="https://i.postimg.cc/gxk2cCwC/dice-11.png" alt="seedimage" />
+    const face2 = <img className="raw-die" width="54" height="54"  src="https://i.postimg.cc/CRHxwFLH/dice-12.png" alt="seedimage" />
+    const face3 = <img className="raw-die" width="54" height="54"  src="https://i.postimg.cc/MfMGwVvv/dice-13.png" alt="seedimage" />
+    const face4 = <img className="raw-die" width="54" height="54"  src="https://i.postimg.cc/QBhV7Fny/dice-14.png" alt="seedimage" />
+    const face5 = <img className="raw-die" width="54" height="54"  src="https://i.postimg.cc/0Mt6P9nH/dice-15.png" alt="seedimage" />
+    const face6 = <img className="raw-die" width="54" height="54" src="https://i.postimg.cc/7bV9Jzsp/dice-6svg.pngg" alt="seedimage" />
     
     // const face1 = <img className="raw-die" width="54" height="54"  src="images/dice-1.png" alt="dice-image" />
     // const face2 = <img className="raw-die" width="54" height="54"  src="images/dice-2.png" alt="dice-image" />
@@ -213,15 +205,7 @@ export default function App() {
     // const face4 = <img className="raw-die" width="54" height="54"  src="images/dice-4.png" alt="dice-image" />
     // const face5 = <img className="raw-die" width="54" height="54"  src="images/dice-5.png" alt="dice-image" />
     // const face6 = <img className="raw-die" width="54" height="54" src="images/dice-6.png" alt="dice-image" />
-        
-            // dice face images
-    // const face1 = <img height="48" width="48" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rESe_Nfnvd8GFWQG9EXXMWWxsKK1ORZCk_pVpSKY8ogVYzyUe6wJmQBaK3GJAgYHx15PYOCSePjTuof0egvBHtIcZCmw=s2560" alt="1" />
-    // const face2 = <img height="48" width="48"  src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pr0Qo3o3A0pUuHdrX58ceo1kNbYPJy834PcwQzQTulJOLrXzNGv0y6fBm7mWAkMLLtlDgMalKDBGfGo0VUMBh1QV3EXA=s2560" alt="2" />
-    // const face3 = <img height="48" width="48" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81otr9EroBP0nveBToLrlPSX-neDp97bmeZY1J8wn_xdF6zI_7jk0r5VCrXAgtIWXT6JPB33yzFwE6r6tUsuImmPsCH-=s2560"alt="3" />
-    // const face4 = <img height="48" width="48" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81oHXeCuYClxw3V0q69U8Vhy0h9qf_Omkyn0om7dE5v3Etv9AOKZANxMsF0wk21Itg3Jv7jaswS8FsViledttQzX8i6jpw=s2560" alt="4" />
-    // const face5 = <img height="48" width="48" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81p3haH4d7KdLJjVzTohqSgcYYv41uxa1BmBSvGgb8njZwhNhHHN2FPpO9TvyybwjVU2BkAXFAkBJyNsBrEwbEn9Us7qFA=s2560" alt="5" />
-    // const face6 = <img height="48" width="48"  src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rCBVDgmOOTgykcG_DS44YGVrtyM_X_FrwJpzOURHKastGnuTqvO8V6DtXh9qpGHjJLScX6EwLDAhkHfPQygTQerY1F2A=s2560" alt="6" />
-    
+            
     // map through the dice array and pass props to Die component
     const diceElements = dice.map(die => {
         const dieFace = die.value === 1 ? face1 : die.value === 2 ? face2 : 
