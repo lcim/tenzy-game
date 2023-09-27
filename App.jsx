@@ -220,7 +220,7 @@ export default function App() {
         />
     )})
     
-    
+
     // refresh or quit game
     function reset() {
     window.location.reload();
