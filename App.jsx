@@ -18,6 +18,7 @@ import $ from "jquery"
 8. The least number of attempts in achieving a tenzy is stored and updated in localStorage as a newRecored.
 */
 
+
 export default function App() {
 
     const [dice, setDice] = React.useState(allNewDice())
